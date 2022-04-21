@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411314839512",
+    "project_id": "notejj-491e4",
+    "storage_bucket": "notejj-491e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411314839512:android:c70f75b1a122be4a355cad",
+        "android_client_info": {
+          "package_name": "com.example.note_app_e"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411314839512-5hgbseocdcojcjgsthtsjeqcoa5lca1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACH4X_d0x8746nkzDqzAFiQTsl0fyH65o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411314839512-5hgbseocdcojcjgsthtsjeqcoa5lca1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
