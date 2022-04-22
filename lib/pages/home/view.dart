@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget _buildPage(BuildContext context) {
-    final provider = context.read<HomeProvider>();
+    final provider = context.watch<HomeProvider>();
 
     return Scaffold(
       appBar: AppBar(title: const Text("Note")),

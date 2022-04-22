@@ -11,6 +11,7 @@ class DetailPage extends StatefulWidget {
 }
 
 class _DetailPageState extends State<DetailPage> {
+
   @override
   void dispose() {
     // TODO: implement dispose
@@ -28,7 +29,7 @@ class _DetailPageState extends State<DetailPage> {
   }
 
   Widget _buildPage(BuildContext context) {
-    final provider = context.read<DetailProvider>();
+    final provider = context.watch<DetailProvider>();
     return Scaffold(
       appBar: AppBar(title: const Text("Create new Note")),
       body: Padding(
@@ -42,8 +43,8 @@ class _DetailPageState extends State<DetailPage> {
             _textField(label: "Body", controller: provider.bodyController),
             const SizedBox(height: 40),
             MaterialButton(
-              onPressed: () {
-                provider.saveNote();
+              onPressed: () async{
+                await provider.saveNote();
                 Navigator.pop(context);
               },
               child: const Text("Save"),

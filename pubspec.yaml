@@ -54,7 +54,6 @@ dependencies:
   hive_flutter: any
 
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
